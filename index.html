@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <title>XXbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+          <img class="hamburger-menu" src="logo.png" onclick="
+          video = document.querySelector('.the_body')
+          welcome = document.querySelector('.welcome')
+          video.style.display='none'
+          welcome.style.display ='block'
+              ">
+           <strong class="logo_name" >XXBox</strong>
+        </div>
+        <div class="middle-section">
+          
+          <button class="search-button" onclick="
+            video = document.querySelector('.the_body')
+            welcome = document.querySelector('.welcome')
+            video.style.display='block'
+            welcome.style.display ='none'
+            alert('This page is for adults only')
+              
+            "> 18+</button>
+            
+         
+        
+        </header>
+        </div>
+      <div  class="welcome">
+      <p class="welcome_message"> Welcome To XXbox</p>    <video src="02.mp4" width="100%" class="welcome_video" autoplay muted loop>
+      </div>
+      <main class="the_body">
+         
+            <section class="video-grid">
+              <video src="01.mp4" width="100%" controls></video>
+
+            </section>
+            <p class="title"> <a href="01.mp4" download>Download Video</a>
+            </p>            
+      </main>
+      
+      
+      <script src="script.js"></script>
+</body>
+</html>

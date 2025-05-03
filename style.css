@@ -1,0 +1,153 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  body {
+    /* This style below will be inherited */
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 60px;
+    background-color: rgb(75, 19, 148);
+  }
+  
+
+.header {
+    height: 55px;
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    width:100%;
+  
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(78, 15, 224);
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .hamburger-menu {
+    width: 30px;
+    margin-left: 24px;
+    margin-right: 2px;
+  }
+  
+  .youtube-logo {
+    height: 3px;
+  
+    font-family: ;
+   
+  }
+  
+  .middle-section {
+    flex: 1;
+    margin-left:3px;
+    margin-right: 2px;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  
+  .search-button {
+    height: 40px;
+    width: 70px;
+    background-color:inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(24, 11, 206);
+    margin-left: 70px;
+    margin-right: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  
+  .upload-icon {
+    height: 24px;
+  }
+  
+  .youtube-apps-icon {
+    height: 24px;
+  }
+    
+
+  
+  
+  .search-button,
+  .voice-search-button,
+  .upload-icon-container,
+  .youtube-apps-icon-container,
+  .notifications-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+  }
+  
+
+  
+  
+  .logo_name{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+  }
+.b{
+  font-size:11px;
+  font-weight: bold;
+}
+
+  .the_body{
+    display: none;
+  }
+  .welcome_message {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content:center ;
+    display: flex;
+    margin-bottom: 20px;
+
+  }
+  
+  .title{
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .cartoons{
+    display: none;
+  }
+
+  .Amovies{
+    display: none;
+  }
+  .video-grid1{
+    display: inline-block;
+  }
+  a{
+    color: black;
+  }
